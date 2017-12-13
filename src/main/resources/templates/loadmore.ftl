@@ -13,7 +13,7 @@
       	</time> • 
         <span class="post-list__meta--tags tags">
       		<a class="tag-link" href="/user/${post.user.id}/userpage?module=${post.module?url}#blog">${post.module}</a> >
-		    <a class="tag-link" href="/user/${post.user.id}/userpage?category=${post.category?url}#blog">${post.category}</a>
+		    <a class="tag-link tag-link-rightmargin" href="/user/${post.user.id}/userpage?category=${post.category?url}#blog">${post.category}</a>
 	    </span>
 	    <#include "admin-post-options.ftl">
 	  </div>
