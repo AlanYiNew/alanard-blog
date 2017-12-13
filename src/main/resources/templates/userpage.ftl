@@ -96,9 +96,9 @@
 					$newpost.hide().appendTo(".post-list")
 					Prism.highlightAll();
 					$newpost.slideDown("slow");
-				    $('.sk-cube-grid').hide();
-					$('a.older-posts').show();
 				}
+				$('.sk-cube-grid').hide();
+			    $('a.older-posts').show();
 			},
 			error:function(data){
 				$('.sk-cube-grid').hide();
