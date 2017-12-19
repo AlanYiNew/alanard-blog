@@ -17,7 +17,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
+<meta name="google-site-verification" content="xTeeYOsh09bo5KYbMYotUaMcfJUgiWI-0f2AsBe-Wv4" />
 <meta name="theme-color" content="#333333">
 <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32" />
 <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16" />
