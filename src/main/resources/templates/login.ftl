@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html >
 <head>
-  <meta charset="UTF-8">
-  <title><@spring.message "index_title" /></title>
-  <link rel="stylesheet" href="/css/style.css">
-  <link rel="stylesheet" href="/css/modalize.css">
-  <link rel="stylesheet" href="/css/message.css">
+	<meta charset="UTF-8">
+	<title><@spring.message "index_title" /></title>
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/modalize.css">
+	<link rel="stylesheet" href="/css/message.css">
   
-  <meta name="apple-mobile-web-app-status-bar-style" content="blank" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0"/>
-  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-  <script src='/js/jquery.md5.js'></script>
-  <script src='/js/message.js'></script>
+	<meta name="renderer" content="webkit">
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="google-site-verification" content="xTeeYOsh09bo5KYbMYotUaMcfJUgiWI-0f2AsBe-Wv4" />
+	<meta name="theme-color" content="#333333">
+	<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16" />
+	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+	<script src='/js/jquery.md5.js'></script>
+	<script src='/js/message.js'></script>
   <!--[if IE]>
   	<script src='/js/messagIE.js'></script>
   <![endif]-->
