@@ -4120,7 +4120,7 @@ LinkPopover = (function(superClass) {
     this.urlEl = this.el.find('.link-url');
     this.unlinkEl = this.el.find('.btn-unlink');
     this.selectTarget = this.el.find('.link-target');
-    this.textEl.on('keyup', (function(_this) {
+    this.textEl.on('keyup oninput', (function(_this) {
       return function(e) {
         if (e.which === 13) {
           return;
@@ -4129,7 +4129,7 @@ LinkPopover = (function(superClass) {
         return _this.editor.inputManager.throttledValueChanged();
       };
     })(this));
-    this.urlEl.on('keyup', (function(_this) {
+    this.urlEl.on('keyup oninput', (function(_this) {
       return function(e) {
         var val;
         if (e.which === 13) {
@@ -4143,7 +4143,7 @@ LinkPopover = (function(superClass) {
         return _this.editor.inputManager.throttledValueChanged();
       };
     })(this));
-    $([this.urlEl[0], this.textEl[0]]).on('keydown', (function(_this) {
+    $([this.urlEl[0], this.textEl[0]]).on('keydown oninput', (function(_this) {
       return function(e) {
         var range;
         if (e.which === 13 || e.which === 27 || (!e.shiftKey && e.which === 9 && $(e.target).hasClass('link-url'))) {

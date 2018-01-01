@@ -36,7 +36,7 @@
 					   <input type="text" name="email" required>
 					   <span class="highlight"></span>
 					   <span class="bar"></span>
-					   <label><@spring.message "email"/></label>
+					   <label class="mylabel"><@spring.message "email"/></label>
 					 </div>
 					
 					 <div class="input-group">
@@ -44,7 +44,7 @@
 					   <input type="hidden" name="password" required>
 					   <span class="highlight"></span>
 					   <span class="bar"></span>
-					   <label><@spring.message "password"/></label>
+					   <label class="mylabel"><@spring.message "password"/></label>
 					 </div>
 	    	 
 			    	 <footer style="margin:10px 0">
@@ -64,14 +64,14 @@
 					   <input type="text" name="email" required>
 					   <span class="highlight"></span>
 					   <span class="bar"></span>
-					   <label><@spring.message "email"/></label>
+					   <label class="mylabel"><@spring.message "email"/></label>
 					 </div>
 			 	 	
 			 	 	 <div class="input-group">
 					   <input type="text" name="username" required>
 					   <span class="highlight"></span>
 					   <span class="bar"></span>
-					   <label><@spring.message "username"/></label>
+					   <label class="mylabel"><@spring.message "username"/></label>
 					 </div>
 			 	 
 			         <div class="input-group">
@@ -79,7 +79,7 @@
 					   <input type="hidden" class="password" name="password" required>
 					   <span class="highlight"></span>
 					   <span class="bar"></span>
-					   <label><@spring.message "password"/></label>
+					   <label class="mylabel"><@spring.message "password"/></label>
 					 </div>
 					 
 					 <div class="input-group">
@@ -87,14 +87,14 @@
 					   <input type="hidden" class="confirmPassword" name="confirmPassword" required>
 					   <span class="highlight"></span>
 					   <span class="bar"></span>
-					   <label><@spring.message "confirm_Password"/></label>
+					   <label class="mylabel"><@spring.message "confirm_Password"/></label>
 					 </div>
 			    	 
 			    	  <div class="input-group">
 					   <input type="text" name="code" required>
 					   <span class="highlight"></span>
 					   <span class="bar"></span>
-					   <label><@spring.message "invitationcode"/></label>
+					   <label class="mylabel"><@spring.message "invitationcode"/></label>
 					 </div>		    
 			    	 
 			    	 <footer>
@@ -114,7 +114,7 @@
 					   <input type="text" name="email" required>
 					   <span class="highlight"></span>
 					   <span class="bar"></span>
-					   <label><@spring.message "email"/></label>
+					   <label class="mylabel"><@spring.message "email"/></label>
 					   <button class="send-mail"><@spring.message "send_Mail"/></button>
 					 </div>
 					 
@@ -125,7 +125,7 @@
 					   <input type="hidden" class="password" name="password" required>
 					   <span class="highlight"></span>
 					   <span class="bar"></span>
-					   <label><@spring.message "password"/></label>
+					   <label class="mylabel"><@spring.message "password"/></label>
 					 </div>   
 			       
 			    	 <div class="input-group">
@@ -133,7 +133,7 @@
 					   <input type="hidden" class="confirmPassword" name="confirmPassword" required>
 					   <span class="highlight"></span>
 					   <span class="bar"></span>
-					   <label><@spring.message "confirm_Password"/></label>
+					   <label class="mylabel"><@spring.message "confirm_Password"/></label>
 					 </div>
 			    	 
 			    	 
@@ -141,7 +141,7 @@
 					   <input type="text" name="pin" required>
 					   <span class="highlight"></span>
 					   <span class="bar"></span>
-					   <label><@spring.message "pin"/></label>
+					   <label class="mylabel"><@spring.message "pin"/></label>
 					 </div>
 			    	 
 			    	 <footer style="margin:10px 0">

@@ -13,21 +13,21 @@
 					   <input type="text" name="title" value="${(post.title)!}" required>
 					   <span class="highlight"></span>
 					   <span class="bar"></span>
-					   <label><@spring.message "title"/></label>
+					   <label class="mylabel"><@spring.message "title"/></label>
 					 </div>
 				
 					<div class="input-group input-group-short">
 					   <input type="text" name="module" value="${(post.module)!}" required>
 					   <span class="highlight"></span>
 					   <span class="bar"></span>
-					   <label><@spring.message "module"/></label>
+					   <label class="mylabel"><@spring.message "module"/></label>
 					</div>
 					
 					<div class="input-group input-group-short">
 					   <input type="text" name="category" value="${(post.category)!}" required>
 					   <span class="highlight"></span>
 					   <span class="bar"></span>
-					   <label><@spring.message "category"/></label>
+					   <label class="mylabel"><@spring.message "category"/></label>
 					</div>				
 					
 					<div>

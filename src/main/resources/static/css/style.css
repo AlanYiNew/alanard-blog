@@ -134,7 +134,7 @@ span.right-half{
 	}
 }
 
-input {
+.input-group input {
   font-size: 18px !important;
   padding: 10px 5px 5px 5px !important;
   display: block;
@@ -143,16 +143,16 @@ input {
 }
 
 @media screen and (max-width: 1024px) {
-	input{
+	.input-group input{
 		width:97% !important;
 	}
 }
 
-input:focus {
+.input-group input:focus {
   outline: none;
 }
 
-label {
+.mylabel {
   color: #999;
   font-size: 17px;
   font-weight: normal;
@@ -166,8 +166,8 @@ label {
   font-family: "Arial";
 }
 
-input:focus ~ label,
-input:valid ~ label {
+.input-group input:focus ~ .mylabel,
+.input-group input:valid ~ .mylabel {
   top: -20px;
   font-size: 14px;
   color: #4285f4;
@@ -215,11 +215,11 @@ input:valid ~ label {
   height: 1px;
 }
 
-input:focus~ .bar:after {
+.input-group input:focus~ .bar:after {
   width: 100%;
 }
 
-input:valid~ .bar:after{
+.input-group input:valid~ .bar:after{
   width:100%;
 }
 
@@ -233,7 +233,7 @@ input:valid~ .bar:after{
   opacity: 0.5;
 }
 
-input:focus ~ .highlight {
+.input-group input:focus ~ .highlight {
   -webkit-animation: inputHighlighter 0.3s ease;
   -moz-animation: inputHighlighter 0.3s ease;
   animation: inputHighlighter 0.3s ease;

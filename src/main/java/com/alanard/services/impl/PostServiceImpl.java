@@ -151,7 +151,9 @@ public class PostServiceImpl implements BaseService<Post> {
 			if (pos == -1) break;
 			int from = pos+5;
 			int to = from+7 ;
-			if (to<newContext.length() && !newContext.substring(from,to).equals("http://"))
+			if (to<newContext.length() && 
+				!newContext.substring(from,to).equals("http://") && 
+				!newContext.substring(from,to+1).equals("https://"))
 				newContext = newContext.substring(0,from)+"http://"+newContext.substring(from+1);
 			pos = to;
 		}
@@ -161,7 +163,9 @@ public class PostServiceImpl implements BaseService<Post> {
 			if (pos == -1) break;
 			int from = pos+6;
 			int to = from+7 ;
-			if (to<newContext.length() && !newContext.substring(from,to).equals("http://"))
+			if (to<newContext.length() && 
+				!newContext.substring(from,to).equals("http://") && 
+				!newContext.substring(from,to+1).equals("https://"))
 				newContext = newContext.substring(0,from)+"http://"+newContext.substring(from+1);
 			pos = to;
 		}
