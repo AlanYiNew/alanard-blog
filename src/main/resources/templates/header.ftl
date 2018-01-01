@@ -24,25 +24,25 @@
             <ul class="navigation">
               <li class="navigation__item">
               	<#if index??>
-              		<a href="#blog" title="><@spring.message "blog" />" class="blog-button"><@spring.message "blog" /></a>
+              		<a href="#blog" title="<@spring.message "blog" />" class="blog-button"><@spring.message "blog" /></a>
               	<#else>
-              		<a href="/user/${user.id}/userpage#blog" title="><@spring.message "blog" />" class="blog-button"><@spring.message "blog" /></a>
+              		<a href="/user/${user.id}/userpage#blog" title="<@spring.message "blog" />" class="blog-button"><@spring.message "blog" /></a>
               	</#if>
               </li>
-              <li class="navigation__item"><a href="/user/${user.id}/userpage?module=About me#blog">About</a></li>
-              <li class="navigation__item"><a href="/user/${user.id}/tags">Tags</a></li>
+              <li class="navigation__item"><a href="/user/${user.id}/userpage?module=About me#blog" title="About">About</a></li>
+              <li class="navigation__item"><a href="/user/${user.id}/tags" title="Tags">Tags</a></li>
               <#if Session.admin??>
               	 <#if  Session.admin.id == user.id>
-                 	<li class="navigation__item"><a href="/admin/${admin.id}/post/add"><@spring.message "create"/></a></li>
-                 	<li class="navigation__item"><a href="/admin/${admin.id}/changeinfo"><@spring.message "change_Info"/></a></li>
+                 	<li class="navigation__item"><a href="/admin/${admin.id}/post/add" title="<@spring.message "create" />"><@spring.message "create" /></a></li>
+                 	<li class="navigation__item"><a href="/admin/${admin.id}/changeinfo" title="<@spring.message "change_Info" />"><@spring.message "change_Info"/></a></li>
                  <#else>	
-                 	<li class="navigation__item"><a href="/user/${admin.id}/userpage"><@spring.message "my_blog"/></a></li>
+                 	<li class="navigation__item"><a href="/user/${admin.id}/userpage" title="<@spring.message "my_blog" />"><@spring.message "my_blog"/></a></li>
               	 </#if>
               	
               	 
-              	 <li class="navigation__item"><a href="/admin/signout.do"><@spring.message "sign_Out"/></a></li>
+              	 <li class="navigation__item"><a href="/admin/signout.do" title="<@spring.message "sign_Out" />"><@spring.message "sign_Out"/></a></li>
               <#else>
-              	 <li class="navigation__item"><a href="/admin/login"><@spring.message "sign_In"/></a></li>
+              	 <li class="navigation__item"><a href="/admin/login" title="<@spring.message "sign_In" />"><@spring.message "sign_In"/></a></li>
               </#if>
             </ul>
           </nav>
