@@ -12,21 +12,21 @@
 					   <input type="text" name="username" value="${user.username}" required>
 					   <span class="highlight"></span>
 					   <span class="bar"></span>
-					   <label><@spring.message "username"/></label>
+					   <label class="mylabel"><@spring.message "username"/></label>
 					 </div>
 				
 					<div class="input-group input-group-longer">
 					   <input type="text" name="introduction" value="${user.introduction}" required>
 					   <span class="highlight"></span>
 					   <span class="bar"></span>
-					   <label><@spring.message "user_Introduction"/></label>
+					   <label class="mylabel"><@spring.message "user_Introduction"/></label>
 					</div>
 					
 					<div class="input-group input-group-img">
 					   <input type="text" name="pofolioPic" value="${user.pofolioPic}" required>   
 					   <span class="highlight"></span>
 					   <span class="bar"></span>
-					   <label><@spring.message "avatar"/></label>
+					   <label class="mylabel"><@spring.message "avatar"/></label>
 					</div>	
 					
 					<span id="avatar_file_upload_btn" class="btn-file">
@@ -60,14 +60,14 @@
 					   <input type="text" name="github" value="${user.github!''}" required>   
 					   <span class="highlight"></span>
 					   <span class="bar"></span>
-					   <label><@spring.message "github_address"/></label>
+					   <label class="mylabel"><@spring.message "github_address"/></label>
 					</div>	
 				
 					<div class="input-group input-group-img">
 					   <input type="text" name="background" value="${user.background}" required>   
 					   <span class="highlight"></span>
 					   <span class="bar"></span>
-					   <label><@spring.message "index_Background"/></label>
+					   <label class="mylabel"><@spring.message "index_Background"/></label>
 					</div>	
 					
 					<div class="sk-cube-grid" style="display:none">
@@ -248,7 +248,7 @@
 		formData.append('username',$('input[name="username"]').val());
 		formData.append('introduction',$('input[name="introduction"]').val());
 		formData.append('background', $('input[name="background"]').val());
-		
+		formData.append('github', $('input[name="github"]').val());
 		
 		$.ajax({
             url :  "/admin/${user.id}/changeinfo.do",

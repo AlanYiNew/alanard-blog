@@ -38,6 +38,7 @@ public interface UserMapper extends Mapper<User>{
 			+ "password = #{password}, "
 			+ "pofolioPic = #{pofolioPic}, "
 			+ "introduction = #{introduction}, "
+			+ "github = #{github}, "
 			+ "background = #{background} WHERE id = #{id}")
 	public boolean update(User obj);
 		
