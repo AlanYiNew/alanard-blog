@@ -41,7 +41,7 @@ function setupAjax(href){
 	           		var result = JSON.parse(data);
 	           		messageHandler(result);
 	           		if (result.error == 0){
-	           			//window.location.href = href;
+	           			window.location.href = href;
 	           		}               
 	           },
 	           error: function(data){
